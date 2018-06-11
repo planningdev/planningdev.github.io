@@ -1,0 +1,36 @@
+.p-hero {
+  background-image: url('../../../image/hero_bg.jpeg'); 
+  position: relative;
+  height: 61.8vh;
+  width: 100wh;
+  background-position: left center;
+  background-size: cover;
+  font-size: 2em;
+  &::before {
+    background-color: rgba(0,0,0,0.5);
+    /* どの範囲に重ねるかを指定 */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';  
+  }
+  @include mq-down() {
+    background-position: -100px center;
+  }
+  &__top-title {
+    font-family: 'Josefin Slab';
+    text-align: center;
+    color: #fff;
+    font-size: 72px;
+    padding-top: calc(33.3vh - 72px) ;
+    position: absolute;
+    width: 100%;
+    @include mq-down($breakpoint: md) {
+      font-size: 36px;
+      padding-top: calc(33.3vh - 32px) ;
+      background-position: -100px center;
+    }  
+  }
+}

@@ -1,0 +1,10 @@
+.c-btn {
+  border: 2px solid #000;
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: inline-block;
+  &.-white {
+    color: #fff;
+    border-color: #fff
+  }
+}

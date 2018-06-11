@@ -1,0 +1,29 @@
+.p-products {
+ &-kyutechapp {
+    background-image: url(/image/kyutech.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 32px 32px;
+    // height: 320px;
+    &__inner {
+      margin: 0 auto;
+      max-width: 1024px;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    &__title {
+      padding: 32px 0;
+      text-align: center;
+      color: white;
+      font-size: 32px;
+    }
+    &__description {
+      color: #fff;
+      text-align: center;
+      padding: 0 16px 16px 16px;
+    }
+    &__download {
+      text-align: center;
+      padding: 16px 0;
+    }
+ } 
+}

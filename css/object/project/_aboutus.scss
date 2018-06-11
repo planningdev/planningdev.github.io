@@ -1,0 +1,10 @@
+.p-aboutus {
+  &__description {
+    text-align: center;
+    line-height: 2em;
+    margin: 0 16px;
+    @include mq-down($breakpoint: md) {
+      text-align: left;
+    }  
+  }
+}
