@@ -1,14 +1,14 @@
 .l-footer {
-  height: 240px;
+  height: 180px;
   background-color: #000;
   color: #fff;
-  img {
-    width: 320px;
-  }
   &__name {
     font-size: 32px;
-    padding: 64px 0;
+    padding: 32px 0;
     text-align: center;
+    img {
+      width: 320px;
+    }
   }
 
   &__social {
