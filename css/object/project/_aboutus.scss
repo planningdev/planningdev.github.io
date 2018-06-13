@@ -4,6 +4,7 @@
     margin: 0 auto;
     text-align: center;
     line-height: 1.8em;
+    font-weight: bold;
     // margin: 6px 16px;
     @include mq-down($breakpoint: md) {
       text-align: left;
